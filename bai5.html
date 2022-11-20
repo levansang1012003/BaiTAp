@@ -10,19 +10,27 @@
 
 <body>
     <script>
-        let array = [
-            [0, 1],
-            [2, 3],
-            [4, 5],
-        ]
+        let array = [-5,0,2]
+           
+        
+        let sum=0
 
-        console.log(array);
-        for (let i = 0; i < array.length; i++) {
-            let array2 = array[i]
-            for (let j = 0; j < array2.length; j++)
-                console.log(array2[j]);
+       
+        for (let n of array )
+        if(n>0){
+            sum+=n
         }
-// quá khó :'(((((
+        console.log(""+sum);
+
+
+
+// let soduong=[-2,0,2,4,6,10]
+// let sum=0
+// for(let n of soduong)
+// if(n>0){
+//     sum+=n
+// }
+// console.log(".."+sum);
     </script>
 
 </body>
